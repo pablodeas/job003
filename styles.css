@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Corpo */
+body{
+    background-image: url(./images/backgroun1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+/* Texto do Corpo */
+h1{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 100px;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: .1em 0.1em 0.2em black;
+}
+h3{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0px 100px 60px;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: .1em 0.1em 0.2em black;
+}
+/* button{} */
+.button {
+    background: #F44336;
+    background-image: -webkit-linear-gradient(top, #F44336, #5B5B5B);
+    background-image: -moz-linear-gradient(top, #F44336, #5B5B5B);
+    background-image: -ms-linear-gradient(top, #F44336, #5B5B5B);
+    background-image: -o-linear-gradient(top, #F44336, #5B5B5B);
+    background-image: -webkit-gradient(to bottom, #F44336, #5B5B5B);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 0 1px #000000;
+    -moz-box-shadow: 1px 1px 0 1px #000000;
+    box-shadow: 1px 1px 0 1px #000000;
+    text-shadow: 1px 1px 10px #000000;
+    border: solid #000000 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .button:hover {
+    border: solid #ED3131 0;
+    background: #BCBCBC;
+    background-image: -webkit-linear-gradient(top, #BCBCBC, #BCBCBC);
+    background-image: -moz-linear-gradient(top, #BCBCBC, #BCBCBC);
+    background-image: -ms-linear-gradient(top, #BCBCBC, #BCBCBC);
+    background-image: -o-linear-gradient(top, #BCBCBC, #BCBCBC);
+    background-image: -webkit-gradient(to bottom, #BCBCBC, #BCBCBC);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    text-decoration: none;
+ }
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: Lato;
+    font-weight: bold;
+}
+span{
+    font-family: Lato;
+    font-weight: bold;
+    color: #379fff;
+}
